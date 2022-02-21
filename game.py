@@ -14,7 +14,6 @@ def next_turn(a):
             turn = list(input("Введите координаты для 0:\n"))
 
         if len(turn) != 2:
-            print("Нужна ввести две координаты")
             continue
 
         if turn[0].isdigit() and turn[1].isdigit():
